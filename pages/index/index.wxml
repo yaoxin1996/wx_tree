@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view>
+  <view class='up'>-----------------------</view>
+  <mytree model='{{ treeData }}' bind:tapitem='tapItem'></mytree>
+  <view class='down'>-----------------------</view>
+  <view class='up'>-----------------------</view>
+  <mytree model='{{ treeData }}' bind:tapitem='tapItem'></mytree>
+  <view class='down'>-----------------------</view>
+</view>
